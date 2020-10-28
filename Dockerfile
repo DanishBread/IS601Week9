@@ -5,4 +5,4 @@ ADD src /src
 
 #RUN pip3 install pandas
 
-CMD [ "python", "./src/calculatorTests.py" ]
+CMD [ "python", "/src/calculatorTests.py" ]
