@@ -10,7 +10,6 @@ class MyTestCase(unittest.TestCase):
         self.assertIsInstance(self.calculator, calculator)
 
     def test_add_from_csv(self):
-
         fl = self.calculator.read_csv("../src/CSV/uadd.csv")
 
         for var in range(len(fl)):
@@ -44,7 +43,6 @@ class MyTestCase(unittest.TestCase):
             self.assertEqual(int(self.calculator.result),int(fl[2][var]))
 
     def test_square(self):
-
         fl = self.calculator.read_csv("../src/CSV/Unit Test Square.csv")
 
         for var in range(len(fl)):
